@@ -5,15 +5,13 @@ import joblib
 import json
 import plotly.graph_objects as go
 import plotly.express as px
-import sys
+from utils import format_prediction_output, prepare_streamlit_input_mappings
 import os
-from utils import format_prediction_output, prepare_streamlit_input_ma
-
 
 # Page configuration
 st.set_page_config(
     page_title="Employee Income Predictor",
-    page_icon="💰",
+    page_icon="👤",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -186,7 +184,7 @@ def main():
     input_data = create_input_form()
 
     # Prediction button
-    if st.sidebar.button("🔮 Predict Income", type="primary"):
+    if st.sidebar.button("Predict Income", type="primary"):
         try:
             # Preprocess input data
             processed_input = preprocessor.preprocess_single_input(input_data)
