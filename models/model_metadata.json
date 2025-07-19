@@ -1,0 +1,47 @@
+{
+  "best_model_name": "XGBoost",
+  "best_accuracy": 0.8615945632355378,
+  "feature_names": [
+    "age",
+    "workclass",
+    "fnlwgt",
+    "education",
+    "educational_num",
+    "marital_status",
+    "occupation",
+    "relationship",
+    "race",
+    "gender",
+    "capital_gain",
+    "capital_loss",
+    "hours_per_week",
+    "native_country"
+  ],
+  "model_results": {
+    "Logistic Regression": {
+      "accuracy": 0.8163434443891928,
+      "roc_auc": 0.8486485025042751,
+      "cv_mean": 0.8202164613524754
+    },
+    "Decision Tree": {
+      "accuracy": 0.8060666335156639,
+      "roc_auc": 0.7398142137269487,
+      "cv_mean": 0.8068717074396243
+    },
+    "Random Forest": {
+      "accuracy": 0.8539698325874358,
+      "roc_auc": 0.9024909331514428,
+      "cv_mean": 0.8541590134611958
+    },
+    "Gradient Boosting": {
+      "accuracy": 0.858942483010111,
+      "roc_auc": 0.9160230999291463,
+      "cv_mean": 0.8619503767374048
+    },
+    "XGBoost": {
+      "accuracy": 0.8615945632355378,
+      "roc_auc": 0.9204491120645143,
+      "cv_mean": 0.8675453813432851
+    }
+  }
+}
