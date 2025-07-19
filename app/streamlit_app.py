@@ -5,8 +5,11 @@ import joblib
 import json
 import plotly.graph_objects as go
 import plotly.express as px
-from utils import format_prediction_output, prepare_streamlit_input_mappings
+import sys
 import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'src')))
+
+from utils import format_prediction_output, prepare_streamlit_input_ma
 
 # Page configuration
 st.set_page_config(
