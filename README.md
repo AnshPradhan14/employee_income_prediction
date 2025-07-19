@@ -89,7 +89,7 @@ employee-income-ml/
 ├── README.md
 ```
 
-## 💻 Technologies
+## Technologies
 
 - Python 3.10+
 - scikit-learn
@@ -99,7 +99,7 @@ employee-income-ml/
 - seaborn & matplotlib (for EDA & visualization)
 - joblib (for model persistence)
 
-## 📈 Sample Output (Model Summary)
+## Sample Output (Model Summary)
 
 | Model              | Accuracy | ROC-AUC | CV Mean | CV Std |
 |--------------------|----------|---------|---------|--------|
